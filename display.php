@@ -20,16 +20,11 @@ $statement = $connection->prepare($sql);
 $statement->execute();
 $people = $statement->fetchAll(PDO::FETCH_OBJ);
  ?>
-
-
-
-
+ 
 <!doctype html>
 <html lang="en">
   <head>
-    <title>System</tit
-    le>
-    
+    <title>System</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -48,7 +43,7 @@ $people = $statement->fetchAll(PDO::FETCH_OBJ);
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
        <li class="nav-item">
-        <a class="nav-link" href="adminLogout.php">Logout</a>
+        <a class="nav-link" href="Logou_admin.php">Logout</a>
       </li></ul></div></nav>
 
 

@@ -62,7 +62,7 @@
 	</div>
 	<div class="footer navbar navbar-inverse navbar-fixed-bottom">
 
-<p style="margin-left:550px;" class="navbar-text">©CEP IPRC-Tumba 2022</p>
+<p style="margin: left 500px;" class="navbar-text"><h3><b><i>©CEP IPRC-Tumba 2022</i></b></h3></p>
 
 </div>
 	</header>
