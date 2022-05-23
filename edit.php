@@ -22,6 +22,7 @@ if (isset ($_POST['Cfname'])  && isset($_POST['Clname']) && isset($_POST['Distri
   $regno    = $_POST['Reg_Num'];
 
 
+  
   $sql = 'UPDATE christian_tbl SET Cfname=:Cfname, Clname=:Clname, District=:District, Sector=:Sector,  Church=:Church, Pastor_Name=:Pastor_Name, Telephone=:Telephone, Email=:Email, Reg_Num=:Reg_Num WHERE Cid=:Cid';
 
    $statement = $connection-> prepare($sql);

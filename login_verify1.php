@@ -5,12 +5,13 @@
  $pass = "";  
  $database = "cepdb";  
  $message = "";  
+
  try  
  {  
       $connect = new PDO("mysql:host=$host; dbname=$database", $username, $pass);  
       $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-      if($connect)
-      {
+      if($connect){
+
          // echo'success';
       }
      // $username = $_POST['username'];
