@@ -32,7 +32,7 @@
 			<ul class="nav navbar-nav navbar-right"  > 
 		    <li><a href=""><strong>Home</strong></a></li>
 		    <li><a href=""><strong>Gallery</strong></a></li>
-		    <li><a href=""><strong>Contuct Us</strong></a></li>
+		    <li><a href="CONTACT.html"><strong>Contuct Us</strong></a></li>
 		    <li><a href="Admin_loginform.php"><strong>Admin</strong></a></li>
 			</ul>
 			</div>
@@ -42,10 +42,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
-				<h1> WELCOME TO</h1>
-				<p class="big-text">CEP Christians Registration System</p>
+				<h1><font face="Calvino"> WELCOME TO</font></h1>
+				<p class="big-text"><font face="Infiilus">CEP Christians Registration System</font></p>
 
-				<p>you can easly register your self</p>
+				<p><B>You can easly register your self</B></p>
 
                <a class="btn btn-success" href="christian_login_page.php"><b>Login</b></a>
                <a class="btn btn-primary" href="SignUpform.php"><b>SignUp</b></a>
@@ -62,7 +62,7 @@
 	</div>
 	<div class="footer navbar navbar-inverse navbar-fixed-bottom">
 
-<p style="margin: left 500px;" class="navbar-text"><h3><b><i>©CEP IPRC-Tumba 2022</i></b></h3></p>
+<p style="margin: left 500px;" class="navbar-text"><h3><b><i><font face="Calvino">©CEP IPRC-Tumba 2022</font></i></b></h3></p>
 
 </div>
 	</header>

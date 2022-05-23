@@ -45,10 +45,7 @@ if (isset ($_POST['fname'])  && isset($_POST['lname']) && isset($_POST['regnumb'
       <li class="nav-item active">
         <a class="nav-link" href="index.php">Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contuct us</a>
-      </li>
-      
+     
       
       
     </ul>
@@ -71,8 +68,8 @@ if (isset ($_POST['fname'])  && isset($_POST['lname']) && isset($_POST['regnumb'
                          <div class="row">
                                 
                              <div class="mb-3 col-md-9">
-                                        <label>First_name<span class="text-danger">*</span></label>
-                                        <input type="text" name="fname" class="form-control">    
+                                        <label>First_name<span class="text-danger" Required>*</span></label>
+                                        <input type="text" name="fname" class="form-control" >    
                             </div>
                             <div class="mb-3 col-md-9">
                                         <label>Last_name<span class="text-danger">*</span></label>
