@@ -30,6 +30,7 @@
     <button type="submit"  class="btn btn-info" name="login"> Login</button>
     <button type="reset" class="btn btn-info" > clear</button><br>
      if you don't have registed click here: <a href="SignUpform.php">Signup</a>
+     
 </div>
 </form>
 </div>
