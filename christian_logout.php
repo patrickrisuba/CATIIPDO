@@ -1,7 +1,7 @@
 <?php
 session_start();
 include("includes/db.php");
-$_SESSION['username']=="";
+$_SESSION['regno']=="";
 session_unset();
 session_destroy();
 
