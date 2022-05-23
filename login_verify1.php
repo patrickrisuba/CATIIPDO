@@ -5,6 +5,7 @@
  $pass = "";  
  $database = "cepdb";  
  $message = "";  
+ 
  try  
  {  
       $connect = new PDO("mysql:host=$host; dbname=$database", $username, $pass);  
